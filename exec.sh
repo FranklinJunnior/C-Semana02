@@ -6,7 +6,7 @@ clear
 
 sleep 1
 
-docker run -it -p 5000:8080 --name apiend back
+docker run -d -it -p 5000:8080 --name apiend back
 
 
 cd /frontend
